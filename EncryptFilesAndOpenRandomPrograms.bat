@@ -81,7 +81,6 @@ start grpconv.exe
 start hdwwiz.exe
 start psr.exe
 start proquota.exe
-start hal.dll
 start charmap.exe
 start change.exe
 start CheckNetIsolation.exe
@@ -96,7 +95,6 @@ start expand.exe
 start eventcreate.exe
 start FileHistory.exe
 start fontview.exe
-start format.exe
 start msinfo32.exe
 start msiexec.exe
 start mshta.exe
